@@ -1,0 +1,12 @@
+.pie-container {
+    background-color: aliceblue;
+    font-family: Roboto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    height: 220px;
+  }

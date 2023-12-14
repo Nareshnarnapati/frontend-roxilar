@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+  }
+  .table-container {
+    background-color: rgb(197, 220, 239);
+    min-height: 100vh;
+    max-height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .table-heading {
+    background-color: white;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto";
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    align-self: center;
+  }
+  .input {
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+  }
+  .select-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 60%;
+    align-self: center;
+  }
+  .month-card {
+    display: flex;
+    background-color: rgb(223, 223, 36);
+    padding: 9px;
+    border-radius: 5px;
+  }
+  .select {
+    background-color: rgb(255, 214, 12);
+  }
+  .table-head {
+    text-align: center;
+  }
+  table {
+    width: 60%;
+    background-color: rgb(244, 244, 87);
+    border-collapse: collapse;
+    align-self: center;
+  }
+  
+  th,
+  td {
+    border: 1.2px solid #000000;
+    text-align: left;
+    padding: 8px;
+    max-height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .pagination {
+    margin-left: 210px;
+    margin-right: 210px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .pagination-card {
+    display: flex;
+  }
+  .table-items {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+  .items {
+    width: 20%;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    overflow: hidden;
+  }
+  .image-head {
+    background-color: yellow;
+  }
+  .image {
+    width: 100px;
+  }
+  .title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .description {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .item {
+    text-align: center;
+    font-family: Roboto;
+  }
+  .page-items-card {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 576px) {
+    .table-container {
+      max-width: 100%;
+      min-width: 100vw;
+      padding: 30px;
+    }
+    table {
+      width: 40%;
+      background-color: rgb(244, 244, 87);
+      border-collapse: collapse;
+    }
+    .month-card {
+      display: flex;
+      justify-content: space-between;
+    }
+    .pagination {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }

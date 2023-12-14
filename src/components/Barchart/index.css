@@ -1,0 +1,23 @@
+.barchart-container {
+    background-color: aliceblue;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+  }
+  .select-static-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .select-static {
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 20px;
+  }
+  .chart {
+    margin-top: 60px;
+  }
